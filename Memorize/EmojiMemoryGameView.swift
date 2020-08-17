@@ -9,7 +9,8 @@
 import SwiftUI
 
 struct EmojiMemoryGameView: View {
-    var viewModel: EmojiMemoryGame
+    //redraw by being an ObservedObject
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         HStack {
